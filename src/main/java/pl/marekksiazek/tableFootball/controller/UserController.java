@@ -13,7 +13,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-import pl.marekksiazek.tableFootball.entity.Role;
 import pl.marekksiazek.tableFootball.entity.User;
 import pl.marekksiazek.tableFootball.repositories.RoleRepository;
 import pl.marekksiazek.tableFootball.repositories.UserRepository;

@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface PlayerRepository extends JpaRepository<Player, Integer> {
 
-    @Query(value = "SELECT * FROM players WHERE is_deleted = 0", nativeQuery = true)
+    @Query(value = "SELECT * FROM XXXX WHERE is_deleted = 0", nativeQuery = true)
     List<Player> findNotDeletedPlayer();
 }

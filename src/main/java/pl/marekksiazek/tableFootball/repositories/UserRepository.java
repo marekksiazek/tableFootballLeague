@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 
-    @Query(value = "SELECT * FROM users WHERE is_deleted = 0", nativeQuery = true)
+    @Query(value = "SELECT * FROM XXXXX WHERE is_deleted = 0", nativeQuery = true)
     List<User> findNotDeletedUser();
 }
